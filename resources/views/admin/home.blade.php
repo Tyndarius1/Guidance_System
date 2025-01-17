@@ -8,7 +8,6 @@
     </div>
 
     <script>
-        // Fetch data from The Cat API
         fetch(`https://api.thecatapi.com/v1/images/search?limit=10`, {
             headers: {
                 'x-api-key': '{{env("API_KEY")}}'

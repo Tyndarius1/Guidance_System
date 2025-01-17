@@ -78,6 +78,9 @@
     </div>
 </div>
 
+
+{{-- pag delete --}}
+
 <script>
     function confirmDeletion(sessionId) {
         Swal.fire({
@@ -97,4 +100,6 @@
         });
     }
 </script>
+
+
 @endsection

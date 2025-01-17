@@ -69,7 +69,7 @@ public function store(Request $request)
     }
 
 
-    $defaultPassword = 'password';
+    $defaultPassword = 'ee';
 
     User::create([
         'name' => $request->name,

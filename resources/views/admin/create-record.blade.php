@@ -1,6 +1,9 @@
 @extends('layouts._header')
 
 @section('content')
+
+
+
 <div class="container">
     <div class="d-flex align-items-center justify-content-between my-4">
         <h1 class="h3 text-gray-900">Create Record</h1>
